@@ -1,0 +1,16 @@
+tap "homebrew/bundle"
+tap "homebrew/cask"
+
+brew "git"
+brew "curl"
+brew "docker"
+brew "lv"
+brew "imagemagick"
+brew "rbenv"
+brew "ruby-build"
+
+cask_args appdir: "/Applications"
+cask "iterm2"
+cask "visual-studio-code"
+cask "google-chrome"
+cask "slack"
