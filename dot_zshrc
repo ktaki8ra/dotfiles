@@ -1,1 +1,2 @@
 export PATH=/opt/homebrew/bin:$PATH
+export PATH=/opt/homebrew/Cellar/postgresql@15/15.3_2/bin:$PATH

@@ -1,5 +1,6 @@
 tap "homebrew/bundle"
 tap "homebrew/cask"
+tap "homebrew/homebrew-services"
 
 brew "git"
 brew "curl"
@@ -8,6 +9,7 @@ brew "lv"
 brew "imagemagick"
 brew "rbenv"
 brew "ruby-build"
+brew "postgresql@15"
 
 cask_args appdir: "/Applications"
 cask "iterm2"
