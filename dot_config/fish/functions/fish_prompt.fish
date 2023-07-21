@@ -3,6 +3,7 @@ function fish_prompt
         echo -n (set_color brred)"$USER"(set_color white)'@'(set_color yellow)(prompt_hostname)' '
     end
 
+    echo -n (set_color normal)"$USER"(set_color white)'@'(set_color normal)(extract_lan_ip)' '
     echo -n (set_color normal)(prompt_pwd)' '
 
     set_color -o
