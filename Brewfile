@@ -11,6 +11,8 @@ brew "rbenv"
 brew "ruby-build"
 brew "postgresql@15"
 brew "fish"
+brew "nodenv"
+brew "node-build"
 
 cask_args appdir: "/Applications"
 cask "iterm2"
