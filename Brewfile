@@ -13,6 +13,7 @@ brew "postgresql@15"
 brew "fish"
 brew "nodenv"
 brew "node-build"
+brew "openjdk@11"
 
 cask_args appdir: "/Applications"
 cask "iterm2"

@@ -1,5 +1,6 @@
 set -x PATH /opt/homebrew/bin $PATH
 set -x PATH /opt/homebrew/Cellar/postgresql@15/15.3_2/bin $PATH
+set -x PATH /opt/homebrew/opt/openjdk@11/bin $PATH
 
 set -x LSCOLORS gxfxcxdxbxegedabagacad
 
