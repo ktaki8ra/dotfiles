@@ -10,6 +10,7 @@ brew "imagemagick"
 brew "rbenv"
 brew "ruby-build"
 brew "postgresql@15"
+brew "fish"
 
 cask_args appdir: "/Applications"
 cask "iterm2"
