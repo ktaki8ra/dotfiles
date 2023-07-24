@@ -20,3 +20,6 @@ cask "iterm2"
 cask "visual-studio-code"
 cask "google-chrome"
 cask "slack"
+
+vscode "vscodevim.vim"
+vscode "scalameta.metals"
