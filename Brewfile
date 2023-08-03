@@ -23,3 +23,4 @@ cask "docker"
 
 vscode "vscodevim.vim"
 vscode "scalameta.metals"
+vscode "rust-lang.rust-analyzer"
