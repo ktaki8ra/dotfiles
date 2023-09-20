@@ -22,6 +22,7 @@ cask "visual-studio-code"
 cask "google-chrome"
 cask "slack"
 cask "docker"
+cask "raspberry-pi-imager"
 
 vscode "vscodevim.vim"
 vscode "scalameta.metals"
