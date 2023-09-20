@@ -15,6 +15,7 @@ brew "fish"
 brew "nodenv"
 brew "node-build"
 brew "openjdk@11"
+brew "telnet"
 
 cask_args appdir: "/Applications"
 cask "iterm2"
