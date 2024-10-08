@@ -5,6 +5,10 @@ set -x PATH $HOME/.cargo/bin $PATH
 
 set -x LSCOLORS gxfxcxdxbxegedabagacad
 
+# for Java
+set -x PATH ~/Library/Java/JavaVirtualMachines/temurin-11.0.22/Contents/Home/bin $PATH
+set -x PATH $HOME/jvm/apache-maven-3.9.6/bin $PATH
+
 if status is-interactive
     # Commands to run in interactive sessions can go here
     source (nodenv init -|psub)
