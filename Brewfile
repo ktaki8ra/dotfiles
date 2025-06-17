@@ -17,6 +17,7 @@ brew "node-build"
 brew "openjdk@11"
 brew "telnet"
 brew "ffmpeg"
+brew "redis"
 
 cask_args appdir: "/Applications"
 cask "iterm2"
