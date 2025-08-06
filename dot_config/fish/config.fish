@@ -1,5 +1,5 @@
 set -x PATH /opt/homebrew/bin $PATH
-set -x PATH /opt/homebrew/Cellar/postgresql@15/15.3_2/bin $PATH
+set -x PATH (brew --prefix postgresql@15)/bin $PATH
 set -x PATH /opt/homebrew/opt/openjdk@11/bin $PATH
 set -x PATH $HOME/.cargo/bin $PATH
 
